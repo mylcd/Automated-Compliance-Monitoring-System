@@ -239,10 +239,20 @@ pnpm-debug.log*
 *.db
 *.sqlite
 *.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
 data/*.db
 
 # Generated local evidence; keep committed sample evidence separately
-evidence/runtime/
+evidence/runtime/*
+!evidence/runtime/.gitkeep
 evidence/uploads/
 
 # Docker and application logs

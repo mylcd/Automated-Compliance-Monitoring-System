@@ -4,3 +4,4 @@ SQLAlchemy==2.0.58
 alembic==1.20.1
 pydantic-settings==2.16.3
 pwdlib[argon2]==0.4.2
+PyYAML==6.0.3

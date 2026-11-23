@@ -145,7 +145,7 @@ def test_migration_upgrade_downgrade_round_trip(settings):
     migrate(settings.database_url)
     engine = create_database_engine(settings.database_url)
     with engine.connect() as connection:
-        assert connection.execute(text("SELECT version_num FROM alembic_version")).scalar() == "0001"
+        assert connection.execute(text("SELECT version_num FROM alembic_version")).scalar() == "0006"
     engine.dispose()
 
 

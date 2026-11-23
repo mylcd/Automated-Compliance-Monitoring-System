@@ -249,6 +249,9 @@ pnpm-debug.log*
 *.sqlite3-wal
 *.sqlite3-shm
 data/*.db
+data/mock_sources/
+data/.myl-monitor.lock
+data/.*.monitor.lock
 
 # Generated local evidence; keep committed sample evidence separately
 evidence/runtime/*

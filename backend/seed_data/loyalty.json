@@ -1,0 +1,1998 @@
+{
+  "schema_version": "1.0",
+  "source_type": "loyalty",
+  "source_version": "myl-demo-v3-october-tax",
+  "captured_at": "2026-11-01T12:00:00Z",
+  "restaurant_ids": [
+    "R001",
+    "R002",
+    "R003",
+    "R004",
+    "R005"
+  ],
+  "complete": true,
+  "complete_months": [
+    "2026-10"
+  ],
+  "datasets": {
+    "customers": [
+      {
+        "id": "C001-01",
+        "display_name": "Customer 001-01",
+        "loyalty_member": true
+      },
+      {
+        "id": "C001-02",
+        "display_name": "Customer 001-02",
+        "loyalty_member": true
+      },
+      {
+        "id": "C001-03",
+        "display_name": "Customer 001-03",
+        "loyalty_member": true
+      },
+      {
+        "id": "C001-04",
+        "display_name": "Customer 001-04",
+        "loyalty_member": true
+      },
+      {
+        "id": "C001-05",
+        "display_name": "Customer 001-05",
+        "loyalty_member": true
+      },
+      {
+        "id": "C001-06",
+        "display_name": "Customer 001-06",
+        "loyalty_member": true
+      },
+      {
+        "id": "C001-07",
+        "display_name": "Customer 001-07",
+        "loyalty_member": true
+      },
+      {
+        "id": "C001-08",
+        "display_name": "Customer 001-08",
+        "loyalty_member": true
+      },
+      {
+        "id": "C001-09",
+        "display_name": "Customer 001-09",
+        "loyalty_member": true
+      },
+      {
+        "id": "C001-10",
+        "display_name": "Customer 001-10",
+        "loyalty_member": true
+      },
+      {
+        "id": "C001-11",
+        "display_name": "Customer 001-11",
+        "loyalty_member": false
+      },
+      {
+        "id": "C001-12",
+        "display_name": "Customer 001-12",
+        "loyalty_member": false
+      },
+      {
+        "id": "C002-01",
+        "display_name": "Customer 002-01",
+        "loyalty_member": true
+      },
+      {
+        "id": "C002-02",
+        "display_name": "Customer 002-02",
+        "loyalty_member": true
+      },
+      {
+        "id": "C002-03",
+        "display_name": "Customer 002-03",
+        "loyalty_member": true
+      },
+      {
+        "id": "C002-04",
+        "display_name": "Customer 002-04",
+        "loyalty_member": true
+      },
+      {
+        "id": "C002-05",
+        "display_name": "Customer 002-05",
+        "loyalty_member": true
+      },
+      {
+        "id": "C002-06",
+        "display_name": "Customer 002-06",
+        "loyalty_member": true
+      },
+      {
+        "id": "C002-07",
+        "display_name": "Customer 002-07",
+        "loyalty_member": true
+      },
+      {
+        "id": "C002-08",
+        "display_name": "Customer 002-08",
+        "loyalty_member": true
+      },
+      {
+        "id": "C002-09",
+        "display_name": "Customer 002-09",
+        "loyalty_member": true
+      },
+      {
+        "id": "C002-10",
+        "display_name": "Customer 002-10",
+        "loyalty_member": true
+      },
+      {
+        "id": "C002-11",
+        "display_name": "Customer 002-11",
+        "loyalty_member": false
+      },
+      {
+        "id": "C002-12",
+        "display_name": "Customer 002-12",
+        "loyalty_member": false
+      },
+      {
+        "id": "C003-01",
+        "display_name": "Customer 003-01",
+        "loyalty_member": true
+      },
+      {
+        "id": "C003-02",
+        "display_name": "Customer 003-02",
+        "loyalty_member": true
+      },
+      {
+        "id": "C003-03",
+        "display_name": "Customer 003-03",
+        "loyalty_member": true
+      },
+      {
+        "id": "C003-04",
+        "display_name": "Customer 003-04",
+        "loyalty_member": true
+      },
+      {
+        "id": "C003-05",
+        "display_name": "Customer 003-05",
+        "loyalty_member": true
+      },
+      {
+        "id": "C003-06",
+        "display_name": "Customer 003-06",
+        "loyalty_member": true
+      },
+      {
+        "id": "C003-07",
+        "display_name": "Customer 003-07",
+        "loyalty_member": true
+      },
+      {
+        "id": "C003-08",
+        "display_name": "Customer 003-08",
+        "loyalty_member": true
+      },
+      {
+        "id": "C003-09",
+        "display_name": "Customer 003-09",
+        "loyalty_member": true
+      },
+      {
+        "id": "C003-10",
+        "display_name": "Customer 003-10",
+        "loyalty_member": true
+      },
+      {
+        "id": "C003-11",
+        "display_name": "Customer 003-11",
+        "loyalty_member": false
+      },
+      {
+        "id": "C003-12",
+        "display_name": "Customer 003-12",
+        "loyalty_member": false
+      },
+      {
+        "id": "C004-01",
+        "display_name": "Customer 004-01",
+        "loyalty_member": true
+      },
+      {
+        "id": "C004-02",
+        "display_name": "Customer 004-02",
+        "loyalty_member": true
+      },
+      {
+        "id": "C004-03",
+        "display_name": "Customer 004-03",
+        "loyalty_member": true
+      },
+      {
+        "id": "C004-04",
+        "display_name": "Customer 004-04",
+        "loyalty_member": true
+      },
+      {
+        "id": "C004-05",
+        "display_name": "Customer 004-05",
+        "loyalty_member": true
+      },
+      {
+        "id": "C004-06",
+        "display_name": "Customer 004-06",
+        "loyalty_member": true
+      },
+      {
+        "id": "C004-07",
+        "display_name": "Customer 004-07",
+        "loyalty_member": true
+      },
+      {
+        "id": "C004-08",
+        "display_name": "Customer 004-08",
+        "loyalty_member": true
+      },
+      {
+        "id": "C004-09",
+        "display_name": "Customer 004-09",
+        "loyalty_member": true
+      },
+      {
+        "id": "C004-10",
+        "display_name": "Customer 004-10",
+        "loyalty_member": true
+      },
+      {
+        "id": "C004-11",
+        "display_name": "Customer 004-11",
+        "loyalty_member": false
+      },
+      {
+        "id": "C004-12",
+        "display_name": "Customer 004-12",
+        "loyalty_member": false
+      },
+      {
+        "id": "C005-01",
+        "display_name": "Customer 005-01",
+        "loyalty_member": true
+      },
+      {
+        "id": "C005-02",
+        "display_name": "Customer 005-02",
+        "loyalty_member": true
+      },
+      {
+        "id": "C005-03",
+        "display_name": "Customer 005-03",
+        "loyalty_member": true
+      },
+      {
+        "id": "C005-04",
+        "display_name": "Customer 005-04",
+        "loyalty_member": true
+      },
+      {
+        "id": "C005-05",
+        "display_name": "Customer 005-05",
+        "loyalty_member": true
+      },
+      {
+        "id": "C005-06",
+        "display_name": "Customer 005-06",
+        "loyalty_member": true
+      },
+      {
+        "id": "C005-07",
+        "display_name": "Customer 005-07",
+        "loyalty_member": true
+      },
+      {
+        "id": "C005-08",
+        "display_name": "Customer 005-08",
+        "loyalty_member": true
+      },
+      {
+        "id": "C005-09",
+        "display_name": "Customer 005-09",
+        "loyalty_member": true
+      },
+      {
+        "id": "C005-10",
+        "display_name": "Customer 005-10",
+        "loyalty_member": true
+      },
+      {
+        "id": "C005-11",
+        "display_name": "Customer 005-11",
+        "loyalty_member": false
+      },
+      {
+        "id": "C005-12",
+        "display_name": "Customer 005-12",
+        "loyalty_member": false
+      }
+    ],
+    "processing_purposes": [
+      {
+        "id": "PUR-MARKETING",
+        "name": "Loyalty marketing",
+        "lawful_basis": "consent",
+        "retention_days": 730
+      }
+    ],
+    "loyalty_records": [
+      {
+        "id": "LR-C001-01",
+        "customer_id": "C001-01",
+        "restaurant_id": "R001",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C001-02",
+        "customer_id": "C001-02",
+        "restaurant_id": "R001",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C001-03",
+        "customer_id": "C001-03",
+        "restaurant_id": "R001",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C001-04",
+        "customer_id": "C001-04",
+        "restaurant_id": "R001",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C001-05",
+        "customer_id": "C001-05",
+        "restaurant_id": "R001",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C001-06",
+        "customer_id": "C001-06",
+        "restaurant_id": "R001",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C001-07",
+        "customer_id": "C001-07",
+        "restaurant_id": "R001",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C001-08",
+        "customer_id": "C001-08",
+        "restaurant_id": "R001",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C001-09",
+        "customer_id": "C001-09",
+        "restaurant_id": "R001",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C001-10",
+        "customer_id": "C001-10",
+        "restaurant_id": "R001",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C002-01",
+        "customer_id": "C002-01",
+        "restaurant_id": "R002",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C002-02",
+        "customer_id": "C002-02",
+        "restaurant_id": "R002",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C002-03",
+        "customer_id": "C002-03",
+        "restaurant_id": "R002",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C002-04",
+        "customer_id": "C002-04",
+        "restaurant_id": "R002",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C002-05",
+        "customer_id": "C002-05",
+        "restaurant_id": "R002",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C002-06",
+        "customer_id": "C002-06",
+        "restaurant_id": "R002",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C002-07",
+        "customer_id": "C002-07",
+        "restaurant_id": "R002",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C002-08",
+        "customer_id": "C002-08",
+        "restaurant_id": "R002",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C002-09",
+        "customer_id": "C002-09",
+        "restaurant_id": "R002",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C002-10",
+        "customer_id": "C002-10",
+        "restaurant_id": "R002",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C003-01",
+        "customer_id": "C003-01",
+        "restaurant_id": "R003",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C003-02",
+        "customer_id": "C003-02",
+        "restaurant_id": "R003",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C003-03",
+        "customer_id": "C003-03",
+        "restaurant_id": "R003",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C003-04",
+        "customer_id": "C003-04",
+        "restaurant_id": "R003",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C003-05",
+        "customer_id": "C003-05",
+        "restaurant_id": "R003",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C003-06",
+        "customer_id": "C003-06",
+        "restaurant_id": "R003",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C003-07",
+        "customer_id": "C003-07",
+        "restaurant_id": "R003",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C003-08",
+        "customer_id": "C003-08",
+        "restaurant_id": "R003",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C003-09",
+        "customer_id": "C003-09",
+        "restaurant_id": "R003",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C003-10",
+        "customer_id": "C003-10",
+        "restaurant_id": "R003",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C004-01",
+        "customer_id": "C004-01",
+        "restaurant_id": "R004",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C004-02",
+        "customer_id": "C004-02",
+        "restaurant_id": "R004",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C004-03",
+        "customer_id": "C004-03",
+        "restaurant_id": "R004",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C004-04",
+        "customer_id": "C004-04",
+        "restaurant_id": "R004",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C004-05",
+        "customer_id": "C004-05",
+        "restaurant_id": "R004",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C004-06",
+        "customer_id": "C004-06",
+        "restaurant_id": "R004",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C004-07",
+        "customer_id": "C004-07",
+        "restaurant_id": "R004",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C004-08",
+        "customer_id": "C004-08",
+        "restaurant_id": "R004",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C004-09",
+        "customer_id": "C004-09",
+        "restaurant_id": "R004",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C004-10",
+        "customer_id": "C004-10",
+        "restaurant_id": "R004",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C005-01",
+        "customer_id": "C005-01",
+        "restaurant_id": "R005",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C005-02",
+        "customer_id": "C005-02",
+        "restaurant_id": "R005",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C005-03",
+        "customer_id": "C005-03",
+        "restaurant_id": "R005",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C005-04",
+        "customer_id": "C005-04",
+        "restaurant_id": "R005",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C005-05",
+        "customer_id": "C005-05",
+        "restaurant_id": "R005",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C005-06",
+        "customer_id": "C005-06",
+        "restaurant_id": "R005",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C005-07",
+        "customer_id": "C005-07",
+        "restaurant_id": "R005",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C005-08",
+        "customer_id": "C005-08",
+        "restaurant_id": "R005",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C005-09",
+        "customer_id": "C005-09",
+        "restaurant_id": "R005",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "LR-C005-10",
+        "customer_id": "C005-10",
+        "restaurant_id": "R005",
+        "purpose_id": "PUR-MARKETING",
+        "collected_at": "2026-09-01T10:00:00Z",
+        "retention_due_at": "2028-08-31T10:00:00Z",
+        "status": "active"
+      }
+    ],
+    "consent_events": [
+      {
+        "id": "CE-C001-02",
+        "customer_id": "C001-02",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C001-03",
+        "customer_id": "C001-03",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C001-04",
+        "customer_id": "C001-04",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C001-05",
+        "customer_id": "C001-05",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C001-06",
+        "customer_id": "C001-06",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C001-07",
+        "customer_id": "C001-07",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C001-08",
+        "customer_id": "C001-08",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C001-09",
+        "customer_id": "C001-09",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C001-10",
+        "customer_id": "C001-10",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-WITHDRAW-R001",
+        "customer_id": "C001-10",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "withdraw",
+        "occurred_at": "2026-10-12T10:00:00Z",
+        "notice_version": null
+      },
+      {
+        "id": "CE-C002-01",
+        "customer_id": "C002-01",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C002-02",
+        "customer_id": "C002-02",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C002-03",
+        "customer_id": "C002-03",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C002-04",
+        "customer_id": "C002-04",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C002-05",
+        "customer_id": "C002-05",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C002-06",
+        "customer_id": "C002-06",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C002-07",
+        "customer_id": "C002-07",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C002-08",
+        "customer_id": "C002-08",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C002-09",
+        "customer_id": "C002-09",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C002-10",
+        "customer_id": "C002-10",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-WITHDRAW-R002",
+        "customer_id": "C002-10",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "withdraw",
+        "occurred_at": "2026-10-12T10:00:00Z",
+        "notice_version": null
+      },
+      {
+        "id": "CE-C003-01",
+        "customer_id": "C003-01",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C003-02",
+        "customer_id": "C003-02",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C003-03",
+        "customer_id": "C003-03",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C003-04",
+        "customer_id": "C003-04",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C003-05",
+        "customer_id": "C003-05",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C003-06",
+        "customer_id": "C003-06",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C003-07",
+        "customer_id": "C003-07",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C003-08",
+        "customer_id": "C003-08",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C003-09",
+        "customer_id": "C003-09",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C003-10",
+        "customer_id": "C003-10",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-WITHDRAW-R003",
+        "customer_id": "C003-10",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "withdraw",
+        "occurred_at": "2026-10-12T10:00:00Z",
+        "notice_version": null
+      },
+      {
+        "id": "CE-C004-01",
+        "customer_id": "C004-01",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C004-02",
+        "customer_id": "C004-02",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C004-03",
+        "customer_id": "C004-03",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C004-04",
+        "customer_id": "C004-04",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C004-05",
+        "customer_id": "C004-05",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C004-06",
+        "customer_id": "C004-06",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C004-07",
+        "customer_id": "C004-07",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C004-08",
+        "customer_id": "C004-08",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C004-09",
+        "customer_id": "C004-09",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C004-10",
+        "customer_id": "C004-10",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-WITHDRAW-R004",
+        "customer_id": "C004-10",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "withdraw",
+        "occurred_at": "2026-10-12T10:00:00Z",
+        "notice_version": null
+      },
+      {
+        "id": "CE-C005-01",
+        "customer_id": "C005-01",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C005-02",
+        "customer_id": "C005-02",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C005-03",
+        "customer_id": "C005-03",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C005-04",
+        "customer_id": "C005-04",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C005-05",
+        "customer_id": "C005-05",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C005-06",
+        "customer_id": "C005-06",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C005-07",
+        "customer_id": "C005-07",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C005-08",
+        "customer_id": "C005-08",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C005-09",
+        "customer_id": "C005-09",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-C005-10",
+        "customer_id": "C005-10",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "grant",
+        "occurred_at": "2026-09-01T10:00:00Z",
+        "notice_version": "privacy-2026-09"
+      },
+      {
+        "id": "CE-WITHDRAW-R005",
+        "customer_id": "C005-10",
+        "purpose_id": "PUR-MARKETING",
+        "event_type": "withdraw",
+        "occurred_at": "2026-10-12T10:00:00Z",
+        "notice_version": null
+      }
+    ],
+    "customer_activities": [
+      {
+        "id": "ACT-C001-01",
+        "loyalty_record_id": "LR-C001-01",
+        "visit_id": null,
+        "asset_id": "R001-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C001-02",
+        "loyalty_record_id": "LR-C001-02",
+        "visit_id": null,
+        "asset_id": "R001-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C001-03",
+        "loyalty_record_id": "LR-C001-03",
+        "visit_id": null,
+        "asset_id": "R001-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C001-04",
+        "loyalty_record_id": "LR-C001-04",
+        "visit_id": null,
+        "asset_id": "R001-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C001-05",
+        "loyalty_record_id": "LR-C001-05",
+        "visit_id": null,
+        "asset_id": "R001-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C001-06",
+        "loyalty_record_id": "LR-C001-06",
+        "visit_id": null,
+        "asset_id": "R001-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C001-07",
+        "loyalty_record_id": "LR-C001-07",
+        "visit_id": null,
+        "asset_id": "R001-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C001-08",
+        "loyalty_record_id": "LR-C001-08",
+        "visit_id": null,
+        "asset_id": "R001-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C001-09",
+        "loyalty_record_id": "LR-C001-09",
+        "visit_id": null,
+        "asset_id": "R001-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C001-10",
+        "loyalty_record_id": "LR-C001-10",
+        "visit_id": null,
+        "asset_id": "R001-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C002-01",
+        "loyalty_record_id": "LR-C002-01",
+        "visit_id": null,
+        "asset_id": "R002-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C002-02",
+        "loyalty_record_id": "LR-C002-02",
+        "visit_id": null,
+        "asset_id": "R002-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C002-03",
+        "loyalty_record_id": "LR-C002-03",
+        "visit_id": null,
+        "asset_id": "R002-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C002-04",
+        "loyalty_record_id": "LR-C002-04",
+        "visit_id": null,
+        "asset_id": "R002-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C002-05",
+        "loyalty_record_id": "LR-C002-05",
+        "visit_id": null,
+        "asset_id": "R002-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C002-06",
+        "loyalty_record_id": "LR-C002-06",
+        "visit_id": null,
+        "asset_id": "R002-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C002-07",
+        "loyalty_record_id": "LR-C002-07",
+        "visit_id": null,
+        "asset_id": "R002-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C002-08",
+        "loyalty_record_id": "LR-C002-08",
+        "visit_id": null,
+        "asset_id": "R002-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C002-09",
+        "loyalty_record_id": "LR-C002-09",
+        "visit_id": null,
+        "asset_id": "R002-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C002-10",
+        "loyalty_record_id": "LR-C002-10",
+        "visit_id": null,
+        "asset_id": "R002-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C003-01",
+        "loyalty_record_id": "LR-C003-01",
+        "visit_id": null,
+        "asset_id": "R003-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C003-02",
+        "loyalty_record_id": "LR-C003-02",
+        "visit_id": null,
+        "asset_id": "R003-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C003-03",
+        "loyalty_record_id": "LR-C003-03",
+        "visit_id": null,
+        "asset_id": "R003-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C003-04",
+        "loyalty_record_id": "LR-C003-04",
+        "visit_id": null,
+        "asset_id": "R003-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C003-05",
+        "loyalty_record_id": "LR-C003-05",
+        "visit_id": null,
+        "asset_id": "R003-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C003-06",
+        "loyalty_record_id": "LR-C003-06",
+        "visit_id": null,
+        "asset_id": "R003-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C003-07",
+        "loyalty_record_id": "LR-C003-07",
+        "visit_id": null,
+        "asset_id": "R003-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C003-08",
+        "loyalty_record_id": "LR-C003-08",
+        "visit_id": null,
+        "asset_id": "R003-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C003-09",
+        "loyalty_record_id": "LR-C003-09",
+        "visit_id": null,
+        "asset_id": "R003-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C003-10",
+        "loyalty_record_id": "LR-C003-10",
+        "visit_id": null,
+        "asset_id": "R003-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C004-01",
+        "loyalty_record_id": "LR-C004-01",
+        "visit_id": null,
+        "asset_id": "R004-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C004-02",
+        "loyalty_record_id": "LR-C004-02",
+        "visit_id": null,
+        "asset_id": "R004-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C004-03",
+        "loyalty_record_id": "LR-C004-03",
+        "visit_id": null,
+        "asset_id": "R004-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C004-04",
+        "loyalty_record_id": "LR-C004-04",
+        "visit_id": null,
+        "asset_id": "R004-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C004-05",
+        "loyalty_record_id": "LR-C004-05",
+        "visit_id": null,
+        "asset_id": "R004-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C004-06",
+        "loyalty_record_id": "LR-C004-06",
+        "visit_id": null,
+        "asset_id": "R004-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C004-07",
+        "loyalty_record_id": "LR-C004-07",
+        "visit_id": null,
+        "asset_id": "R004-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C004-08",
+        "loyalty_record_id": "LR-C004-08",
+        "visit_id": null,
+        "asset_id": "R004-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C004-09",
+        "loyalty_record_id": "LR-C004-09",
+        "visit_id": null,
+        "asset_id": "R004-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C004-10",
+        "loyalty_record_id": "LR-C004-10",
+        "visit_id": null,
+        "asset_id": "R004-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C005-01",
+        "loyalty_record_id": "LR-C005-01",
+        "visit_id": null,
+        "asset_id": "R005-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C005-02",
+        "loyalty_record_id": "LR-C005-02",
+        "visit_id": null,
+        "asset_id": "R005-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C005-03",
+        "loyalty_record_id": "LR-C005-03",
+        "visit_id": null,
+        "asset_id": "R005-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C005-04",
+        "loyalty_record_id": "LR-C005-04",
+        "visit_id": null,
+        "asset_id": "R005-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C005-05",
+        "loyalty_record_id": "LR-C005-05",
+        "visit_id": null,
+        "asset_id": "R005-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C005-06",
+        "loyalty_record_id": "LR-C005-06",
+        "visit_id": null,
+        "asset_id": "R005-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C005-07",
+        "loyalty_record_id": "LR-C005-07",
+        "visit_id": null,
+        "asset_id": "R005-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C005-08",
+        "loyalty_record_id": "LR-C005-08",
+        "visit_id": null,
+        "asset_id": "R005-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C005-09",
+        "loyalty_record_id": "LR-C005-09",
+        "visit_id": null,
+        "asset_id": "R005-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      },
+      {
+        "id": "ACT-C005-10",
+        "loyalty_record_id": "LR-C005-10",
+        "visit_id": null,
+        "asset_id": "R005-loyalty",
+        "activity_type": "marketing.email",
+        "occurred_at": "2026-10-10T10:00:00Z"
+      }
+    ],
+    "customer_requests": [
+      {
+        "id": "REQ-R001",
+        "customer_id": "C001-02",
+        "restaurant_id": "R001",
+        "request_type": "access",
+        "received_at": "2026-10-05T10:00:00Z",
+        "due_at": "2026-11-05T10:00:00Z",
+        "completed_at": "2026-10-08T10:00:00Z",
+        "status": "completed"
+      },
+      {
+        "id": "REQ-R002",
+        "customer_id": "C002-02",
+        "restaurant_id": "R002",
+        "request_type": "access",
+        "received_at": "2026-10-05T10:00:00Z",
+        "due_at": "2026-11-05T10:00:00Z",
+        "completed_at": "2026-10-08T10:00:00Z",
+        "status": "completed"
+      },
+      {
+        "id": "REQ-R003",
+        "customer_id": "C003-02",
+        "restaurant_id": "R003",
+        "request_type": "access",
+        "received_at": "2026-10-05T10:00:00Z",
+        "due_at": "2026-11-05T10:00:00Z",
+        "completed_at": "2026-10-08T10:00:00Z",
+        "status": "completed"
+      },
+      {
+        "id": "REQ-R004",
+        "customer_id": "C004-02",
+        "restaurant_id": "R004",
+        "request_type": "access",
+        "received_at": "2026-10-05T10:00:00Z",
+        "due_at": "2026-11-05T10:00:00Z",
+        "completed_at": "2026-10-08T10:00:00Z",
+        "status": "completed"
+      },
+      {
+        "id": "REQ-R005",
+        "customer_id": "C005-02",
+        "restaurant_id": "R005",
+        "request_type": "access",
+        "received_at": "2026-10-05T10:00:00Z",
+        "due_at": "2026-11-05T10:00:00Z",
+        "completed_at": "2026-10-08T10:00:00Z",
+        "status": "completed"
+      }
+    ],
+    "actual_access_grants": [
+      {
+        "id": "GR-R001-E-GM-read",
+        "employee_id": "E-GM",
+        "asset_id": "R001-loyalty",
+        "permission": "customer.read",
+        "active": true
+      },
+      {
+        "id": "GR-R001-E-GM-update",
+        "employee_id": "E-GM",
+        "asset_id": "R001-loyalty",
+        "permission": "customer.update",
+        "active": true
+      },
+      {
+        "id": "GR-R001-E-GM-delete",
+        "employee_id": "E-GM",
+        "asset_id": "R001-loyalty",
+        "permission": "customer.delete",
+        "active": true
+      },
+      {
+        "id": "GR-R001-E001-01-read",
+        "employee_id": "E001-01",
+        "asset_id": "R001-loyalty",
+        "permission": "customer.read",
+        "active": true
+      },
+      {
+        "id": "GR-R001-E001-02-read",
+        "employee_id": "E001-02",
+        "asset_id": "R001-loyalty",
+        "permission": "customer.read",
+        "active": true
+      },
+      {
+        "id": "GR-R002-E-GM-read",
+        "employee_id": "E-GM",
+        "asset_id": "R002-loyalty",
+        "permission": "customer.read",
+        "active": true
+      },
+      {
+        "id": "GR-R002-E-GM-update",
+        "employee_id": "E-GM",
+        "asset_id": "R002-loyalty",
+        "permission": "customer.update",
+        "active": true
+      },
+      {
+        "id": "GR-R002-E-GM-delete",
+        "employee_id": "E-GM",
+        "asset_id": "R002-loyalty",
+        "permission": "customer.delete",
+        "active": true
+      },
+      {
+        "id": "GR-R002-E002-01-read",
+        "employee_id": "E002-01",
+        "asset_id": "R002-loyalty",
+        "permission": "customer.read",
+        "active": true
+      },
+      {
+        "id": "GR-R002-E002-02-read",
+        "employee_id": "E002-02",
+        "asset_id": "R002-loyalty",
+        "permission": "customer.read",
+        "active": true
+      },
+      {
+        "id": "GR-R003-E-GM-read",
+        "employee_id": "E-GM",
+        "asset_id": "R003-loyalty",
+        "permission": "customer.read",
+        "active": true
+      },
+      {
+        "id": "GR-R003-E-GM-update",
+        "employee_id": "E-GM",
+        "asset_id": "R003-loyalty",
+        "permission": "customer.update",
+        "active": true
+      },
+      {
+        "id": "GR-R003-E-GM-delete",
+        "employee_id": "E-GM",
+        "asset_id": "R003-loyalty",
+        "permission": "customer.delete",
+        "active": true
+      },
+      {
+        "id": "GR-R003-E003-01-read",
+        "employee_id": "E003-01",
+        "asset_id": "R003-loyalty",
+        "permission": "customer.read",
+        "active": true
+      },
+      {
+        "id": "GR-R003-E003-02-read",
+        "employee_id": "E003-02",
+        "asset_id": "R003-loyalty",
+        "permission": "customer.read",
+        "active": true
+      },
+      {
+        "id": "GR-R004-E-GM-read",
+        "employee_id": "E-GM",
+        "asset_id": "R004-loyalty",
+        "permission": "customer.read",
+        "active": true
+      },
+      {
+        "id": "GR-R004-E-GM-update",
+        "employee_id": "E-GM",
+        "asset_id": "R004-loyalty",
+        "permission": "customer.update",
+        "active": true
+      },
+      {
+        "id": "GR-R004-E-GM-delete",
+        "employee_id": "E-GM",
+        "asset_id": "R004-loyalty",
+        "permission": "customer.delete",
+        "active": true
+      },
+      {
+        "id": "GR-R004-E004-01-read",
+        "employee_id": "E004-01",
+        "asset_id": "R004-loyalty",
+        "permission": "customer.read",
+        "active": true
+      },
+      {
+        "id": "GR-R004-E004-02-read",
+        "employee_id": "E004-02",
+        "asset_id": "R004-loyalty",
+        "permission": "customer.read",
+        "active": true
+      },
+      {
+        "id": "GR-R005-E-GM-read",
+        "employee_id": "E-GM",
+        "asset_id": "R005-loyalty",
+        "permission": "customer.read",
+        "active": true
+      },
+      {
+        "id": "GR-R005-E-GM-update",
+        "employee_id": "E-GM",
+        "asset_id": "R005-loyalty",
+        "permission": "customer.update",
+        "active": true
+      },
+      {
+        "id": "GR-R005-E-GM-delete",
+        "employee_id": "E-GM",
+        "asset_id": "R005-loyalty",
+        "permission": "customer.delete",
+        "active": true
+      },
+      {
+        "id": "GR-R005-E005-01-read",
+        "employee_id": "E005-01",
+        "asset_id": "R005-loyalty",
+        "permission": "customer.read",
+        "active": true
+      },
+      {
+        "id": "GR-R005-E005-02-read",
+        "employee_id": "E005-02",
+        "asset_id": "R005-loyalty",
+        "permission": "customer.read",
+        "active": true
+      }
+    ],
+    "employee_access_events": [
+      {
+        "id": "EV-R001-read",
+        "employee_id": "E001-01",
+        "restaurant_id": "R001",
+        "asset_id": "R001-loyalty",
+        "target_customer_id": "C001-02",
+        "action": "customer.read",
+        "occurred_at": "2026-10-20T10:00:00Z",
+        "outcome": "succeeded"
+      },
+      {
+        "id": "EV-R001-denied",
+        "employee_id": "E001-01",
+        "restaurant_id": "R001",
+        "asset_id": "R001-loyalty",
+        "target_customer_id": "C001-02",
+        "action": "customer.update",
+        "occurred_at": "2026-10-20T11:00:00Z",
+        "outcome": "denied"
+      },
+      {
+        "id": "EV-R001-history",
+        "employee_id": "E001-01",
+        "restaurant_id": "R001",
+        "asset_id": "R001-loyalty",
+        "target_customer_id": "C001-02",
+        "action": "customer.update",
+        "occurred_at": "2026-10-10T10:00:00Z",
+        "outcome": "succeeded"
+      },
+      {
+        "id": "EV-R002-read",
+        "employee_id": "E002-01",
+        "restaurant_id": "R002",
+        "asset_id": "R002-loyalty",
+        "target_customer_id": "C002-02",
+        "action": "customer.read",
+        "occurred_at": "2026-10-20T10:00:00Z",
+        "outcome": "succeeded"
+      },
+      {
+        "id": "EV-R002-denied",
+        "employee_id": "E002-01",
+        "restaurant_id": "R002",
+        "asset_id": "R002-loyalty",
+        "target_customer_id": "C002-02",
+        "action": "customer.update",
+        "occurred_at": "2026-10-20T11:00:00Z",
+        "outcome": "denied"
+      },
+      {
+        "id": "EV-R002-history",
+        "employee_id": "E002-01",
+        "restaurant_id": "R002",
+        "asset_id": "R002-loyalty",
+        "target_customer_id": "C002-02",
+        "action": "customer.update",
+        "occurred_at": "2026-10-10T10:00:00Z",
+        "outcome": "succeeded"
+      },
+      {
+        "id": "EV-R003-read",
+        "employee_id": "E003-01",
+        "restaurant_id": "R003",
+        "asset_id": "R003-loyalty",
+        "target_customer_id": "C003-02",
+        "action": "customer.read",
+        "occurred_at": "2026-10-20T10:00:00Z",
+        "outcome": "succeeded"
+      },
+      {
+        "id": "EV-R003-denied",
+        "employee_id": "E003-01",
+        "restaurant_id": "R003",
+        "asset_id": "R003-loyalty",
+        "target_customer_id": "C003-02",
+        "action": "customer.update",
+        "occurred_at": "2026-10-20T11:00:00Z",
+        "outcome": "denied"
+      },
+      {
+        "id": "EV-R003-history",
+        "employee_id": "E003-01",
+        "restaurant_id": "R003",
+        "asset_id": "R003-loyalty",
+        "target_customer_id": "C003-02",
+        "action": "customer.update",
+        "occurred_at": "2026-10-10T10:00:00Z",
+        "outcome": "succeeded"
+      },
+      {
+        "id": "EV-R004-read",
+        "employee_id": "E004-01",
+        "restaurant_id": "R004",
+        "asset_id": "R004-loyalty",
+        "target_customer_id": "C004-02",
+        "action": "customer.read",
+        "occurred_at": "2026-10-20T10:00:00Z",
+        "outcome": "succeeded"
+      },
+      {
+        "id": "EV-R004-denied",
+        "employee_id": "E004-01",
+        "restaurant_id": "R004",
+        "asset_id": "R004-loyalty",
+        "target_customer_id": "C004-02",
+        "action": "customer.update",
+        "occurred_at": "2026-10-20T11:00:00Z",
+        "outcome": "denied"
+      },
+      {
+        "id": "EV-R004-history",
+        "employee_id": "E004-01",
+        "restaurant_id": "R004",
+        "asset_id": "R004-loyalty",
+        "target_customer_id": "C004-02",
+        "action": "customer.update",
+        "occurred_at": "2026-10-10T10:00:00Z",
+        "outcome": "succeeded"
+      },
+      {
+        "id": "EV-R005-read",
+        "employee_id": "E005-01",
+        "restaurant_id": "R005",
+        "asset_id": "R005-loyalty",
+        "target_customer_id": "C005-02",
+        "action": "customer.read",
+        "occurred_at": "2026-10-20T10:00:00Z",
+        "outcome": "succeeded"
+      },
+      {
+        "id": "EV-R005-denied",
+        "employee_id": "E005-01",
+        "restaurant_id": "R005",
+        "asset_id": "R005-loyalty",
+        "target_customer_id": "C005-02",
+        "action": "customer.update",
+        "occurred_at": "2026-10-20T11:00:00Z",
+        "outcome": "denied"
+      },
+      {
+        "id": "EV-R005-history",
+        "employee_id": "E005-01",
+        "restaurant_id": "R005",
+        "asset_id": "R005-loyalty",
+        "target_customer_id": "C005-02",
+        "action": "customer.update",
+        "occurred_at": "2026-10-10T10:00:00Z",
+        "outcome": "succeeded"
+      }
+    ]
+  }
+}

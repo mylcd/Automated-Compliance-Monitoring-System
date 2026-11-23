@@ -12,6 +12,7 @@ class User(Base):
     id: Mapped[int] = mapped_column(primary_key=True)
     username: Mapped[str] = mapped_column(String(80), unique=True)
     password_hash: Mapped[str] = mapped_column(String(255))
+    employee_id: Mapped[str | None] = mapped_column(ForeignKey("employees.id"), unique=True, index=True)
 
 
 class LoginSession(Base):

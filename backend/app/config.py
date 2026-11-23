@@ -14,6 +14,16 @@ class Settings(BaseSettings):
     app_origin: str = "http://localhost:8080"
     session_hours: int = Field(default=8, ge=1, le=168)
     cookie_secure: bool = False
+    seed_demo_data: bool = False
+    assessment_max_evidence_age_days: int = Field(default=30, ge=1, le=365)
+    mock_source_dir: Path | None = None
+    scheduler_poll_seconds: float = Field(default=2, ge=0.1, le=60)
+
+    @property
+    def runtime_source_dir(self) -> Path:
+        database = self.database_url.removeprefix("sqlite:///")
+        parent = self.evidence_dir.parent if database == ":memory:" else Path(database).parent
+        return (self.mock_source_dir or parent / "mock_sources").resolve()
 
     @field_validator("admin_password")
     @classmethod

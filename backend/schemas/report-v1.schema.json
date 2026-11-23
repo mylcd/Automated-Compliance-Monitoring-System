@@ -1,0 +1,678 @@
+{
+  "$defs": {
+    "Coverage": {
+      "additionalProperties": false,
+      "properties": {
+        "total_restaurants": {
+          "title": "Total Restaurants",
+          "type": "integer"
+        },
+        "in_scope_restaurants": {
+          "title": "In Scope Restaurants",
+          "type": "integer"
+        },
+        "assessed_restaurants": {
+          "title": "Assessed Restaurants",
+          "type": "integer"
+        },
+        "unassessed_restaurants": {
+          "title": "Unassessed Restaurants",
+          "type": "integer"
+        },
+        "out_of_scope_restaurants": {
+          "title": "Out Of Scope Restaurants",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "total_restaurants",
+        "in_scope_restaurants",
+        "assessed_restaurants",
+        "unassessed_restaurants",
+        "out_of_scope_restaurants"
+      ],
+      "title": "Coverage",
+      "type": "object"
+    },
+    "EvidenceReference": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "dataset_type": {
+          "title": "Dataset Type",
+          "type": "string"
+        },
+        "sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Sha256",
+          "type": "string"
+        },
+        "captured_at": {
+          "title": "Captured At",
+          "type": "string"
+        },
+        "restaurant_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Restaurant Ids",
+          "type": "array"
+        },
+        "age_days_at_assessment": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Age Days At Assessment"
+        },
+        "stale": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Stale"
+        }
+      },
+      "required": [
+        "id",
+        "dataset_type",
+        "sha256",
+        "captured_at",
+        "restaurant_ids",
+        "age_days_at_assessment",
+        "stale"
+      ],
+      "title": "EvidenceReference",
+      "type": "object"
+    },
+    "FrameworkRollup": {
+      "additionalProperties": false,
+      "properties": {
+        "counts": {
+          "$ref": "#/$defs/ResultCounts"
+        },
+        "total_evaluations": {
+          "title": "Total Evaluations",
+          "type": "integer"
+        },
+        "applicable_evaluations": {
+          "title": "Applicable Evaluations",
+          "type": "integer"
+        },
+        "pass_rate": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Pass Rate"
+        },
+        "id": {
+          "enum": [
+            "GDPR",
+            "PCI-DSS"
+          ],
+          "title": "Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "counts",
+        "total_evaluations",
+        "applicable_evaluations",
+        "pass_rate",
+        "id"
+      ],
+      "title": "FrameworkRollup",
+      "type": "object"
+    },
+    "ReportFinding": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "target_type": {
+          "enum": [
+            "restaurant",
+            "shared_system"
+          ],
+          "title": "Target Type",
+          "type": "string"
+        },
+        "target_id": {
+          "title": "Target Id",
+          "type": "string"
+        },
+        "restaurant_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Restaurant Id"
+        },
+        "affected_restaurant_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Affected Restaurant Ids",
+          "type": "array"
+        },
+        "in_scope_restaurant_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "In Scope Restaurant Ids",
+          "type": "array"
+        },
+        "control_id": {
+          "title": "Control Id",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "severity": {
+          "enum": [
+            "critical",
+            "high",
+            "medium",
+            "low"
+          ],
+          "title": "Severity",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "open",
+            "in_progress",
+            "awaiting_verification",
+            "resolved",
+            "unrecorded"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "owner_employee_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Owner Employee Id"
+        },
+        "due_date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Due Date"
+        },
+        "first_seen_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "First Seen At"
+        },
+        "last_seen_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Last Seen At"
+        },
+        "resolved_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Resolved At"
+        },
+        "resolved_result_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Resolved Result Id"
+        },
+        "evaluation_status": {
+          "enum": [
+            "pass",
+            "fail",
+            "unknown",
+            "not_applicable",
+            "error"
+          ],
+          "title": "Evaluation Status",
+          "type": "string"
+        },
+        "result_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Result Ids",
+          "type": "array"
+        },
+        "result_statuses": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Result Statuses",
+          "type": "object"
+        },
+        "snapshot_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Snapshot At"
+        },
+        "overdue": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Overdue"
+        },
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        },
+        "remediation": {
+          "title": "Remediation",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "target_type",
+        "target_id",
+        "restaurant_id",
+        "affected_restaurant_ids",
+        "in_scope_restaurant_ids",
+        "control_id",
+        "title",
+        "severity",
+        "status",
+        "owner_employee_id",
+        "due_date",
+        "evaluation_status",
+        "result_ids",
+        "snapshot_at",
+        "overdue",
+        "reason",
+        "remediation"
+      ],
+      "title": "ReportFinding",
+      "type": "object"
+    },
+    "ReportResult": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "restaurant_id": {
+          "title": "Restaurant Id",
+          "type": "string"
+        },
+        "control_id": {
+          "title": "Control Id",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "rule_version": {
+          "title": "Rule Version",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "pass",
+            "fail",
+            "unknown",
+            "not_applicable",
+            "error"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "severity": {
+          "enum": [
+            "critical",
+            "high",
+            "medium",
+            "low"
+          ],
+          "title": "Severity",
+          "type": "string"
+        },
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        },
+        "evaluated_at": {
+          "title": "Evaluated At",
+          "type": "string"
+        },
+        "remediation": {
+          "title": "Remediation",
+          "type": "string"
+        },
+        "framework_mappings": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Framework Mappings",
+          "type": "array"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "restaurant_id",
+        "control_id",
+        "title",
+        "rule_version",
+        "status",
+        "severity",
+        "reason",
+        "evaluated_at",
+        "remediation",
+        "framework_mappings",
+        "evidence_ids"
+      ],
+      "title": "ReportResult",
+      "type": "object"
+    },
+    "ReportSummary": {
+      "additionalProperties": false,
+      "properties": {
+        "counts": {
+          "$ref": "#/$defs/ResultCounts"
+        },
+        "total_evaluations": {
+          "title": "Total Evaluations",
+          "type": "integer"
+        },
+        "applicable_evaluations": {
+          "title": "Applicable Evaluations",
+          "type": "integer"
+        },
+        "pass_rate": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Pass Rate"
+        },
+        "findings": {
+          "title": "Findings",
+          "type": "integer"
+        },
+        "active_findings": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Active Findings"
+        },
+        "resolved_findings": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Resolved Findings"
+        },
+        "overdue_findings": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Overdue Findings"
+        },
+        "severity_counts": {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "title": "Severity Counts",
+          "type": "object"
+        },
+        "workflow_snapshot_available": {
+          "title": "Workflow Snapshot Available",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "counts",
+        "total_evaluations",
+        "applicable_evaluations",
+        "pass_rate",
+        "findings",
+        "active_findings",
+        "resolved_findings",
+        "overdue_findings",
+        "severity_counts",
+        "workflow_snapshot_available"
+      ],
+      "title": "ReportSummary",
+      "type": "object"
+    },
+    "ResultCounts": {
+      "additionalProperties": false,
+      "properties": {
+        "pass": {
+          "minimum": 0,
+          "title": "Pass",
+          "type": "integer"
+        },
+        "fail": {
+          "minimum": 0,
+          "title": "Fail",
+          "type": "integer"
+        },
+        "unknown": {
+          "minimum": 0,
+          "title": "Unknown",
+          "type": "integer"
+        },
+        "not_applicable": {
+          "minimum": 0,
+          "title": "Not Applicable",
+          "type": "integer"
+        },
+        "error": {
+          "minimum": 0,
+          "title": "Error",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "pass",
+        "fail",
+        "unknown",
+        "not_applicable",
+        "error"
+      ],
+      "title": "ResultCounts",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Version 1 exports assessment facts, never source payloads or auth rows.",
+  "properties": {
+    "schema_version": {
+      "const": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "report_id": {
+      "title": "Report Id",
+      "type": "string"
+    },
+    "generated_at": {
+      "title": "Generated At",
+      "type": "string"
+    },
+    "organization": {
+      "title": "Organization",
+      "type": "string"
+    },
+    "assessment": {
+      "additionalProperties": true,
+      "title": "Assessment",
+      "type": "object"
+    },
+    "filters": {
+      "additionalProperties": true,
+      "title": "Filters",
+      "type": "object"
+    },
+    "coverage": {
+      "$ref": "#/$defs/Coverage"
+    },
+    "summary": {
+      "$ref": "#/$defs/ReportSummary"
+    },
+    "frameworks": {
+      "items": {
+        "$ref": "#/$defs/FrameworkRollup"
+      },
+      "title": "Frameworks",
+      "type": "array"
+    },
+    "results": {
+      "items": {
+        "$ref": "#/$defs/ReportResult"
+      },
+      "title": "Results",
+      "type": "array"
+    },
+    "findings": {
+      "items": {
+        "$ref": "#/$defs/ReportFinding"
+      },
+      "title": "Findings",
+      "type": "array"
+    },
+    "evidence_references": {
+      "items": {
+        "$ref": "#/$defs/EvidenceReference"
+      },
+      "title": "Evidence References",
+      "type": "array"
+    },
+    "evidence_health": {
+      "additionalProperties": true,
+      "title": "Evidence Health",
+      "type": "object"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Limitations",
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema_version",
+    "report_id",
+    "generated_at",
+    "organization",
+    "assessment",
+    "filters",
+    "coverage",
+    "summary",
+    "frameworks",
+    "results",
+    "findings",
+    "evidence_references",
+    "evidence_health",
+    "limitations"
+  ],
+  "title": "ReportDocument",
+  "type": "object"
+}

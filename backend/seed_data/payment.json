@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "source_type": "payment",
+  "source_version": "myl-demo-v3-october-tax",
+  "captured_at": "2026-11-01T12:00:00Z",
+  "restaurant_ids": [
+    "R001",
+    "R002",
+    "R003",
+    "R004",
+    "R005"
+  ],
+  "complete": true,
+  "complete_months": [
+    "2026-10"
+  ],
+  "datasets": {
+    "payment_configurations": [
+      {
+        "asset_id": "R001-payment",
+        "settings_json": {
+          "tls_enabled": true,
+          "tls_version": "TLS1.3",
+          "audit_logging_enabled": true,
+          "installed_patch_version": "2026.10",
+          "prohibited_storage_detected": false,
+          "accounts": [
+            {
+              "id": "POS-R001-admin",
+              "active": true,
+              "mfa_enabled": true,
+              "password_length": 16
+            }
+          ]
+        },
+        "policy_json": {
+          "allowed_tls_versions": [
+            "TLS1.2",
+            "TLS1.3"
+          ],
+          "require_mfa": true,
+          "minimum_password_length": 12,
+          "required_patch_version": "2026.10"
+        }
+      },
+      {
+        "asset_id": "R002-payment",
+        "settings_json": {
+          "tls_enabled": false,
+          "tls_version": "TLS1.3",
+          "audit_logging_enabled": true,
+          "installed_patch_version": "2026.10",
+          "prohibited_storage_detected": false,
+          "accounts": [
+            {
+              "id": "POS-R002-admin",
+              "active": true,
+              "mfa_enabled": true,
+              "password_length": 16
+            }
+          ]
+        },
+        "policy_json": {
+          "allowed_tls_versions": [
+            "TLS1.2",
+            "TLS1.3"
+          ],
+          "require_mfa": true,
+          "minimum_password_length": 12,
+          "required_patch_version": "2026.10"
+        }
+      },
+      {
+        "asset_id": "R003-payment",
+        "settings_json": {
+          "tls_enabled": true,
+          "tls_version": "TLS1.3",
+          "audit_logging_enabled": false,
+          "installed_patch_version": "2026.10",
+          "prohibited_storage_detected": false,
+          "accounts": [
+            {
+              "id": "POS-R003-admin",
+              "active": true,
+              "mfa_enabled": true,
+              "password_length": 16
+            }
+          ]
+        },
+        "policy_json": {
+          "allowed_tls_versions": [
+            "TLS1.2",
+            "TLS1.3"
+          ],
+          "require_mfa": true,
+          "minimum_password_length": 12,
+          "required_patch_version": "2026.10"
+        }
+      },
+      {
+        "asset_id": "R004-payment",
+        "settings_json": {
+          "tls_enabled": true,
+          "tls_version": "TLS1.3",
+          "audit_logging_enabled": true,
+          "installed_patch_version": "2026.10",
+          "prohibited_storage_detected": false,
+          "accounts": [
+            {
+              "id": "POS-R004-admin",
+              "active": true,
+              "mfa_enabled": true,
+              "password_length": 16
+            }
+          ]
+        },
+        "policy_json": {
+          "allowed_tls_versions": [
+            "TLS1.2",
+            "TLS1.3"
+          ],
+          "require_mfa": true,
+          "minimum_password_length": 12,
+          "required_patch_version": "2026.10"
+        }
+      },
+      {
+        "asset_id": "R005-payment",
+        "settings_json": {
+          "tls_enabled": true,
+          "tls_version": "TLS1.3",
+          "audit_logging_enabled": true,
+          "installed_patch_version": "2026.10",
+          "prohibited_storage_detected": false,
+          "accounts": [
+            {
+              "id": "POS-R005-admin",
+              "active": true,
+              "mfa_enabled": true,
+              "password_length": 16
+            }
+          ]
+        },
+        "policy_json": {
+          "allowed_tls_versions": [
+            "TLS1.2",
+            "TLS1.3"
+          ],
+          "require_mfa": true,
+          "minimum_password_length": 12,
+          "required_patch_version": "2026.10"
+        }
+      }
+    ]
+  }
+}
